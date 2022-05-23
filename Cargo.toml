@@ -1,0 +1,14 @@
+[package]
+name = "snake"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#1.
+# * lo usamos para que el programa use la versión más actualizada
+#Nos permite manejar números aleatorios para nuestra 'manzana'
+rand = "0.8.5" 
+#Nos permitirá representar nuestros elementos con una intefraz de usuario y lidiar con parte de la lógica del juego
+piston_window = "0.123.0"
